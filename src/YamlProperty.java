@@ -1,4 +1,4 @@
-package components;
+
 
 public class YamlProperty {
 	public String Property;

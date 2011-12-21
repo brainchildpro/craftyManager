@@ -1,4 +1,4 @@
-package components;
+
 import java.io.*;
 public class DocumentManager {
 
