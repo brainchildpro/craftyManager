@@ -1,0 +1,129 @@
+2011-12-01 17:34:49 [INFO] Starting minecraft server version 1.0.0
+2011-12-01 17:34:49 [INFO] Loading properties
+2011-12-01 17:34:49 [WARNING] server.properties does not exist
+2011-12-01 17:34:49 [INFO] Generating new properties file
+2011-12-01 17:34:49 [INFO] Starting Minecraft server on *:25565
+2011-12-01 17:34:49 [INFO] This server is running Craftbukkit version git-Bukkit-1.8.1-R4-13-g342948e-b1488jnks (MC: 1.0.0) (Implementing API version 1.0.0-R1-SNAPSHOT)
+2011-12-01 17:34:49 [WARNING] Failed to load ban list: java.io.FileNotFoundException: banned-players.txt (No such file or directory)
+2011-12-01 17:34:49 [WARNING] Failed to load ip ban list: java.io.FileNotFoundException: banned-ips.txt (No such file or directory)
+2011-12-01 17:34:49 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ops.txt (No such file or directory)
+2011-12-01 17:34:49 [WARNING] Failed to load white-list: java.io.FileNotFoundException: white-list.txt (No such file or directory)
+2011-12-01 17:34:49 [INFO] Preparing level "world"
+2011-12-01 17:34:49 [INFO] Default game type: 0
+2011-12-01 17:34:50 [INFO] Placed stronghold in INVALID biome at (10, 63)
+2011-12-01 17:34:50 [INFO] Placed stronghold in INVALID biome at (-52, -20)
+2011-12-01 17:34:50 [INFO] Unable to find spawn biome
+2011-12-01 17:34:50 [INFO] Unable to find spawn biome
+2011-12-01 17:34:50 [SEVERE] java.lang.NullPointerException
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.WorldServer.c(WorldServer.java:162)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.World.addEntity(World.java:906)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.World.addEntity(World.java:858)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.WorldGenEnder.a(SourceFile:46)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.BiomeDecoratorSpikes.a(SourceFile:24)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.BiomeDecorator.a(SourceFile:28)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.BiomeBase.a(SourceFile:190)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.ChunkProviderSky.getChunkAt(SourceFile:336)
+2011-12-01 17:34:50 [SEVERE] 	at org.bukkit.craftbukkit.generator.NormalChunkGenerator.getChunkAt(NormalChunkGenerator.java:47)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:165)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.Chunk.a(Chunk.java:820)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:96)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.ChunkProviderServer.getOrCreateChunk(ChunkProviderServer.java:106)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.World.getChunkAt(World.java:331)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.World.getTypeId(World.java:278)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.World.isEmpty(World.java:282)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.World.a(World.java:249)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.WorldProviderSky.canSpawn(SourceFile:63)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.World.canSpawn(World.java:101)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.World.c(World.java:229)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.World.<init>(World.java:177)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.WorldServer.<init>(WorldServer.java:27)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.SecondaryWorldServer.<init>(SecondaryWorldServer.java:8)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:261)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.MinecraftServer.init(MinecraftServer.java:161)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:388)
+2011-12-01 17:34:50 [SEVERE] 	at net.minecraft.server.ThreadServerApplication.run(SourceFile:457)
+2011-12-01 17:34:50 [SEVERE] Unexpected exception
+java.lang.NullPointerException
+	at net.minecraft.server.WorldServer.c(WorldServer.java:162)
+	at net.minecraft.server.World.addEntity(World.java:906)
+	at net.minecraft.server.World.addEntity(World.java:858)
+	at net.minecraft.server.WorldGenEnder.a(SourceFile:46)
+	at net.minecraft.server.BiomeDecoratorSpikes.a(SourceFile:24)
+	at net.minecraft.server.BiomeDecorator.a(SourceFile:28)
+	at net.minecraft.server.BiomeBase.a(SourceFile:190)
+	at net.minecraft.server.ChunkProviderSky.getChunkAt(SourceFile:336)
+	at org.bukkit.craftbukkit.generator.NormalChunkGenerator.getChunkAt(NormalChunkGenerator.java:47)
+	at net.minecraft.server.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:165)
+	at net.minecraft.server.Chunk.a(Chunk.java:820)
+	at net.minecraft.server.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:96)
+	at net.minecraft.server.ChunkProviderServer.getOrCreateChunk(ChunkProviderServer.java:106)
+	at net.minecraft.server.World.getChunkAt(World.java:331)
+	at net.minecraft.server.World.getTypeId(World.java:278)
+	at net.minecraft.server.World.isEmpty(World.java:282)
+	at net.minecraft.server.World.a(World.java:249)
+	at net.minecraft.server.WorldProviderSky.canSpawn(SourceFile:63)
+	at net.minecraft.server.World.canSpawn(World.java:101)
+	at net.minecraft.server.World.c(World.java:229)
+	at net.minecraft.server.World.<init>(World.java:177)
+	at net.minecraft.server.WorldServer.<init>(WorldServer.java:27)
+	at net.minecraft.server.SecondaryWorldServer.<init>(SecondaryWorldServer.java:8)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:261)
+	at net.minecraft.server.MinecraftServer.init(MinecraftServer.java:161)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:388)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:457)
+2011-12-01 17:36:32 [SEVERE] null
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.read(Native Method)
+	at jline.Terminal.readCharacter(Terminal.java:99)
+	at jline.UnixTerminal.readVirtualKey(UnixTerminal.java:128)
+	at jline.ConsoleReader.readVirtualKey(ConsoleReader.java:1453)
+	at jline.ConsoleReader.readBinding(ConsoleReader.java:654)
+	at jline.ConsoleReader.readLine(ConsoleReader.java:494)
+	at net.minecraft.server.ThreadCommandReader.run(ThreadCommandReader.java:31)
+2011-12-01 17:36:32 [INFO] Stopping server
+2011-12-01 17:36:32 [INFO] Saving chunks
+2011-12-01 17:36:36 [INFO] Starting minecraft server version 1.0.0
+2011-12-01 17:36:36 [INFO] Loading properties
+2011-12-01 17:36:36 [INFO] Starting Minecraft server on *:25565
+2011-12-01 17:36:36 [INFO] This server is running Craftbukkit version git-Bukkit-1.8.1-R4-13-g342948e-b1488jnks (MC: 1.0.0) (Implementing API version 1.0.0-R1-SNAPSHOT)
+2011-12-01 17:36:36 [INFO] Preparing level "world"
+2011-12-01 17:36:36 [INFO] Default game type: 0
+2011-12-01 17:36:36 [INFO] Unable to find spawn biome
+2011-12-01 17:36:36 [INFO] Preparing start region for level 0 (Seed: 3068141458302190972)
+2011-12-01 17:36:36 [INFO] Placed stronghold in INVALID biome at (10, 63)
+2011-12-01 17:36:36 [INFO] Placed stronghold in INVALID biome at (-52, -20)
+2011-12-01 17:36:37 [INFO] Preparing spawn area: 4%
+2011-12-01 17:36:38 [INFO] Preparing spawn area: 8%
+2011-12-01 17:36:39 [INFO] Preparing spawn area: 12%
+2011-12-01 17:36:40 [INFO] Preparing spawn area: 20%
+2011-12-01 17:36:41 [INFO] Preparing spawn area: 28%
+2011-12-01 17:36:42 [INFO] Preparing spawn area: 40%
+2011-12-01 17:36:43 [INFO] Preparing spawn area: 48%
+2011-12-01 17:36:44 [INFO] Preparing spawn area: 57%
+2011-12-01 17:36:45 [INFO] Preparing spawn area: 69%
+2011-12-01 17:36:46 [INFO] Preparing spawn area: 81%
+2011-12-01 17:36:47 [INFO] Preparing spawn area: 93%
+2011-12-01 17:36:48 [INFO] Preparing start region for level 1 (Seed: 3068141458302190972)
+2011-12-01 17:36:48 [INFO] Preparing spawn area: 3%
+2011-12-01 17:36:49 [INFO] Preparing spawn area: 16%
+2011-12-01 17:36:50 [INFO] Preparing spawn area: 20%
+2011-12-01 17:36:52 [INFO] Preparing spawn area: 28%
+2011-12-01 17:36:53 [INFO] Preparing spawn area: 36%
+2011-12-01 17:36:54 [INFO] Preparing spawn area: 44%
+2011-12-01 17:36:55 [INFO] Preparing spawn area: 57%
+2011-12-01 17:36:56 [INFO] Preparing spawn area: 69%
+2011-12-01 17:36:57 [INFO] Preparing spawn area: 89%
+2011-12-01 17:36:58 [INFO] Preparing spawn area: 97%
+2011-12-01 17:36:58 [INFO] Preparing start region for level 2 (Seed: -7088921693251490907)
+2011-12-01 17:36:59 [INFO] Preparing spawn area: 28%
+2011-12-01 17:37:00 [INFO] Preparing spawn area: 69%
+2011-12-01 17:37:01 [INFO] Done (2.505s)! For help, type "help" or "?"
+2011-12-01 17:38:19 [SEVERE] null
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.read(Native Method)
+	at jline.Terminal.readCharacter(Terminal.java:99)
+	at jline.UnixTerminal.readVirtualKey(UnixTerminal.java:128)
+	at jline.ConsoleReader.readVirtualKey(ConsoleReader.java:1453)
+	at jline.ConsoleReader.readBinding(ConsoleReader.java:654)
+	at jline.ConsoleReader.readLine(ConsoleReader.java:494)
+	at net.minecraft.server.ThreadCommandReader.run(ThreadCommandReader.java:31)
